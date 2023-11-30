@@ -19,7 +19,7 @@ addVehicle=new FormGroup({
   status: new FormControl(''),
   soldDate:new FormControl('')
 })
-constructor(private vehicle:VehicleService) 
+constructor(private vehicle:VehicleService ) 
  {
 
 
